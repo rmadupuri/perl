@@ -1,14 +1,14 @@
 Takes in a tab separated text file of the form UNIPROTID\tRESIDUENUMBER and extracts the sequence within the window of -10/+10 residues of the given residue number
 
-### Usage
+#### Usage
 Merge ```maf1.txt``` and ```maf2.txt`` to ```maf_combined.txt```
 
-### Command Line
+#### Command Line
 ```
 python merge_mafs.py path/to/maf1.txt path/to/maf2.txt path/to/maf_combined.txt
 ```
 
-#### Shell commands to merge two MAFs (Alternative to the above python script)
+### Shell commands to merge two MAFs (Alternative to the above python script)
 
 1. Check if headers are identical
 

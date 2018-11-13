@@ -8,7 +8,7 @@ Merge ```maf1.txt``` and ```maf2.txt`` to ```maf_combined.txt```
 python merge_mafs.py path/to/maf1.txt path/to/maf2.txt path/to/maf_combined.txt
 ```
 
-## Bash Commands to merge two mafs
+Shell commands to merge two MAFs (Alternative to the above python script)
 
 1. Check if headers are identical
 

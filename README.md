@@ -22,7 +22,7 @@ If identical ```diff``` won't return anything
 
 2. Copy MAF1 and give it the new merged MAF filename
 ```
-grep -v "^#" maf1 > mergedmaf
+cp maf1 mergedmaf
 ```
 
 3. Concatenate MAF2 contents (ignoring comments and header) to the new merged MAF file
